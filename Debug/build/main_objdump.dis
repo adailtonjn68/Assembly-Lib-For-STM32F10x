@@ -1,0 +1,190 @@
+
+./build/main.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00000000 <.data>:
+   0:	5000      	str	r0, [r0, r0]
+   2:	2000      	movs	r0, #0
+   4:	0135      	lsls	r5, r6, #4
+   6:	0800      	lsrs	r0, r0, #32
+   8:	0130      	lsls	r0, r6, #4
+   a:	0800      	lsrs	r0, r0, #32
+   c:	0130      	lsls	r0, r6, #4
+   e:	0800      	lsrs	r0, r0, #32
+  10:	0130      	lsls	r0, r6, #4
+  12:	0800      	lsrs	r0, r0, #32
+  14:	0130      	lsls	r0, r6, #4
+  16:	0800      	lsrs	r0, r0, #32
+  18:	0130      	lsls	r0, r6, #4
+  1a:	0800      	lsrs	r0, r0, #32
+	...
+  2c:	0130      	lsls	r0, r6, #4
+  2e:	0800      	lsrs	r0, r0, #32
+  30:	0130      	lsls	r0, r6, #4
+  32:	0800      	lsrs	r0, r0, #32
+  34:	0000      	movs	r0, r0
+  36:	0000      	movs	r0, r0
+  38:	0130      	lsls	r0, r6, #4
+  3a:	0800      	lsrs	r0, r0, #32
+  3c:	0130      	lsls	r0, r6, #4
+  3e:	0800      	lsrs	r0, r0, #32
+  40:	0130      	lsls	r0, r6, #4
+  42:	0800      	lsrs	r0, r0, #32
+  44:	0130      	lsls	r0, r6, #4
+  46:	0800      	lsrs	r0, r0, #32
+  48:	0130      	lsls	r0, r6, #4
+  4a:	0800      	lsrs	r0, r0, #32
+  4c:	0130      	lsls	r0, r6, #4
+  4e:	0800      	lsrs	r0, r0, #32
+  50:	0130      	lsls	r0, r6, #4
+  52:	0800      	lsrs	r0, r0, #32
+  54:	0130      	lsls	r0, r6, #4
+  56:	0800      	lsrs	r0, r0, #32
+  58:	0130      	lsls	r0, r6, #4
+  5a:	0800      	lsrs	r0, r0, #32
+  5c:	0130      	lsls	r0, r6, #4
+  5e:	0800      	lsrs	r0, r0, #32
+  60:	0130      	lsls	r0, r6, #4
+  62:	0800      	lsrs	r0, r0, #32
+  64:	0130      	lsls	r0, r6, #4
+  66:	0800      	lsrs	r0, r0, #32
+  68:	0130      	lsls	r0, r6, #4
+  6a:	0800      	lsrs	r0, r0, #32
+  6c:	0130      	lsls	r0, r6, #4
+  6e:	0800      	lsrs	r0, r0, #32
+  70:	0130      	lsls	r0, r6, #4
+  72:	0800      	lsrs	r0, r0, #32
+  74:	0130      	lsls	r0, r6, #4
+  76:	0800      	lsrs	r0, r0, #32
+  78:	0130      	lsls	r0, r6, #4
+  7a:	0800      	lsrs	r0, r0, #32
+  7c:	0130      	lsls	r0, r6, #4
+  7e:	0800      	lsrs	r0, r0, #32
+  80:	0130      	lsls	r0, r6, #4
+  82:	0800      	lsrs	r0, r0, #32
+  84:	0130      	lsls	r0, r6, #4
+  86:	0800      	lsrs	r0, r0, #32
+  88:	0130      	lsls	r0, r6, #4
+  8a:	0800      	lsrs	r0, r0, #32
+  8c:	0130      	lsls	r0, r6, #4
+  8e:	0800      	lsrs	r0, r0, #32
+  90:	0130      	lsls	r0, r6, #4
+  92:	0800      	lsrs	r0, r0, #32
+  94:	0130      	lsls	r0, r6, #4
+  96:	0800      	lsrs	r0, r0, #32
+  98:	0130      	lsls	r0, r6, #4
+  9a:	0800      	lsrs	r0, r0, #32
+  9c:	0130      	lsls	r0, r6, #4
+  9e:	0800      	lsrs	r0, r0, #32
+  a0:	0130      	lsls	r0, r6, #4
+  a2:	0800      	lsrs	r0, r0, #32
+  a4:	0130      	lsls	r0, r6, #4
+  a6:	0800      	lsrs	r0, r0, #32
+  a8:	0130      	lsls	r0, r6, #4
+  aa:	0800      	lsrs	r0, r0, #32
+  ac:	0130      	lsls	r0, r6, #4
+  ae:	0800      	lsrs	r0, r0, #32
+  b0:	0130      	lsls	r0, r6, #4
+  b2:	0800      	lsrs	r0, r0, #32
+  b4:	0130      	lsls	r0, r6, #4
+  b6:	0800      	lsrs	r0, r0, #32
+  b8:	0130      	lsls	r0, r6, #4
+  ba:	0800      	lsrs	r0, r0, #32
+  bc:	0130      	lsls	r0, r6, #4
+  be:	0800      	lsrs	r0, r0, #32
+  c0:	0130      	lsls	r0, r6, #4
+  c2:	0800      	lsrs	r0, r0, #32
+  c4:	0130      	lsls	r0, r6, #4
+  c6:	0800      	lsrs	r0, r0, #32
+  c8:	0130      	lsls	r0, r6, #4
+  ca:	0800      	lsrs	r0, r0, #32
+  cc:	0130      	lsls	r0, r6, #4
+  ce:	0800      	lsrs	r0, r0, #32
+  d0:	0130      	lsls	r0, r6, #4
+  d2:	0800      	lsrs	r0, r0, #32
+  d4:	0130      	lsls	r0, r6, #4
+  d6:	0800      	lsrs	r0, r0, #32
+  d8:	0130      	lsls	r0, r6, #4
+  da:	0800      	lsrs	r0, r0, #32
+  dc:	0130      	lsls	r0, r6, #4
+  de:	0800      	lsrs	r0, r0, #32
+  e0:	0130      	lsls	r0, r6, #4
+  e2:	0800      	lsrs	r0, r0, #32
+  e4:	0130      	lsls	r0, r6, #4
+  e6:	0800      	lsrs	r0, r0, #32
+  e8:	0130      	lsls	r0, r6, #4
+  ea:	0800      	lsrs	r0, r0, #32
+  ec:	0130      	lsls	r0, r6, #4
+  ee:	0800      	lsrs	r0, r0, #32
+  f0:	0130      	lsls	r0, r6, #4
+  f2:	0800      	lsrs	r0, r0, #32
+  f4:	0130      	lsls	r0, r6, #4
+  f6:	0800      	lsrs	r0, r0, #32
+  f8:	0130      	lsls	r0, r6, #4
+  fa:	0800      	lsrs	r0, r0, #32
+  fc:	0130      	lsls	r0, r6, #4
+  fe:	0800      	lsrs	r0, r0, #32
+ 100:	0130      	lsls	r0, r6, #4
+ 102:	0800      	lsrs	r0, r0, #32
+ 104:	0130      	lsls	r0, r6, #4
+ 106:	0800      	lsrs	r0, r0, #32
+ 108:	0130      	lsls	r0, r6, #4
+ 10a:	0800      	lsrs	r0, r0, #32
+ 10c:	0130      	lsls	r0, r6, #4
+ 10e:	0800      	lsrs	r0, r0, #32
+ 110:	0130      	lsls	r0, r6, #4
+ 112:	0800      	lsrs	r0, r0, #32
+ 114:	0130      	lsls	r0, r6, #4
+ 116:	0800      	lsrs	r0, r0, #32
+ 118:	0130      	lsls	r0, r6, #4
+ 11a:	0800      	lsrs	r0, r0, #32
+ 11c:	0130      	lsls	r0, r6, #4
+ 11e:	0800      	lsrs	r0, r0, #32
+ 120:	0130      	lsls	r0, r6, #4
+ 122:	0800      	lsrs	r0, r0, #32
+ 124:	0130      	lsls	r0, r6, #4
+ 126:	0800      	lsrs	r0, r0, #32
+ 128:	0130      	lsls	r0, r6, #4
+ 12a:	0800      	lsrs	r0, r0, #32
+ 12c:	0130      	lsls	r0, r6, #4
+ 12e:	0800      	lsrs	r0, r0, #32
+ 130:	e7fe      	b.n	0x130
+ 132:	0000      	movs	r0, r0
+ 134:	480b      	ldr	r0, [pc, #44]	; (0x164)
+ 136:	4685      	mov	sp, r0
+ 138:	2000      	movs	r0, #0
+ 13a:	490b      	ldr	r1, [pc, #44]	; (0x168)
+ 13c:	4a0b      	ldr	r2, [pc, #44]	; (0x16c)
+ 13e:	4b0c      	ldr	r3, [pc, #48]	; (0x170)
+ 140:	e002      	b.n	0x148
+ 142:	581c      	ldr	r4, [r3, r0]
+ 144:	500c      	str	r4, [r1, r0]
+ 146:	3004      	adds	r0, #4
+ 148:	1844      	adds	r4, r0, r1
+ 14a:	4294      	cmp	r4, r2
+ 14c:	d3f9      	bcc.n	0x142
+ 14e:	2000      	movs	r0, #0
+ 150:	4908      	ldr	r1, [pc, #32]	; (0x174)
+ 152:	4a09      	ldr	r2, [pc, #36]	; (0x178)
+ 154:	e001      	b.n	0x15a
+ 156:	6008      	str	r0, [r1, #0]
+ 158:	3100      	adds	r1, #0
+ 15a:	4291      	cmp	r1, r2
+ 15c:	d3fb      	bcc.n	0x156
+ 15e:	e7ff      	b.n	0x160
+ 160:	bf00      	nop
+ 162:	e7fe      	b.n	0x162
+ 164:	5000      	str	r0, [r0, r0]
+ 166:	2000      	movs	r0, #0
+ 168:	0000      	movs	r0, r0
+ 16a:	2000      	movs	r0, #0
+ 16c:	0000      	movs	r0, r0
+ 16e:	2000      	movs	r0, #0
+ 170:	017c      	lsls	r4, r7, #5
+ 172:	0800      	lsrs	r0, r0, #32
+ 174:	0000      	movs	r0, r0
+ 176:	2000      	movs	r0, #0
+ 178:	0000      	movs	r0, r0
+ 17a:	2000      	movs	r0, #0

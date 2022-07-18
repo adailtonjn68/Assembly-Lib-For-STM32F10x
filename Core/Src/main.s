@@ -4,5 +4,5 @@
 main:
     NOP
 
-loop:       
-    B       loop
+loop:
+    B   loop
